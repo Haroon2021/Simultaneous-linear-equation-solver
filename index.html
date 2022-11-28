@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Linear equation solver</title>
+</head>
+<body>
+    <p>A system of linear equation can be written in the form</p>
+    <p>a = bx + cy</p>
+    <p>d = ex + fy</p>
+    <p>Where a, b, c, d, e, and f are constants</p>
+    <p>Please input values a through to f</p>
+    <br>
+    <form>
+        <label id="avalue">Value for a </label>
+        <input type="text" id="aforlinearequation" name="a"><br><br>
+
+        <label id="bvalue">Value for b </label>
+        <input type="text" id="bforlinearequation" name="b"><br><br>
+
+        <label id="cvalue">Value for c </label>
+        <input type="text" id="cforlinearequation" name="c"><br><br>
+
+        <label id="dvalue">Value for d </label>
+        <input type="text" id="dforlinearequation" name="d"><br><br>
+
+        <label id="evalue">Value for e </label>
+        <input type="text" id="eforlinearequation" name="e"><br><br>
+
+        <label id="fvalue">Value for f </label>
+        <input type="text" id="fforlinearequation" name="f"><br><br>
+
+        <button type="submit" id = "calculateButton">Calculate</button>
+    </form>
+
+    <br>
+
+    <div class="errorhanger"></div><br>
+
+    <div class = "yourequations"></div>
+
+    <div class = "solutionsection1arrangeequation1"></div>
+    <div class = "solutionsection2sub1into2"></div>
+    <div class = "solutionsection3subxintorearrangedequation1"></div>
+    <br>
+    <div></div>
+    <div class = "answer"></div>
+
+    <script src="app.js" defer ></script>
+
+</body>
+</html>
